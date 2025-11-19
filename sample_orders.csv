@@ -1,0 +1,6 @@
+Customer_Name,Product_Name,Quantity,Amount,Payment_Status,Order_Status,Order_Date
+Rahul Sharma,Wireless Earbuds,2,4200,Paid,Shipped,2025-01-15
+Sneha Patel,Smartwatch,1,6500,Not Paid,Pending,2025-01-16
+Amit Verma,Laptop Stand,1,1200,Paid,Delivered,2025-01-17
+Karan Singh,Phone Cover,3,900,Not Paid,Pending,2025-01-18
+Priya Mehta,Powerbank,1,2800,Paid,Delivered,2025-01-19
