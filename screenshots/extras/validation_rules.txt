@@ -1,0 +1,5 @@
+-- Prevent Paid orders with no amount --
+IF(AND(Payment_Status__c = "Paid", Amount__c = 0), true, false)
+
+-- Prevent negative quantity --
+IF(Quantity__c < 1, true, false)
