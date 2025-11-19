@@ -14,9 +14,31 @@ This system helps monitor customer orders, assign delivery agents, calculate tot
 ✔ Dashboard for Order Summary  
 ✔ Sales Report with Total Amount  
 ✔ **Automation** – Email when status = *Shipped*  
-✔ Validation Rules (optional)
+---
 
 ---
+
+## 📸 Project Screenshots
+
+Below are some screenshots of the Salesforce project:
+
+| Feature | Screenshot |
+|--------|------------|
+| Object Fields | ![Object Fields](screenshots/object_fields.png) |
+| New Order Form | ![New Order Form](screenshots/new_order_form.png) |
+| Page Layout | ![Page Layout](screenshots/page_layout.png) |
+| Record List View | ![Record List View](screenshots/record_list_view.png) |
+| Report Summary (Amount Grouped) | ![Report Summary](screenshots/report_summary_amount.png) |
+| Dashboard – Overview | ![Dashboard Overview](screenshots/dashboard_overview_png.png) |
+| Dashboard – Order Status | ![Order Status](screenshots/dashboard_orders_status.png) |
+| Dashboard – Payment Status | ![Payment Status](screenshots/dashboard_payment_status.png) |
+| Dashboard – Total Sales | ![Total Sales](screenshots/dashboard_total_sales.png) |
+| Flow Setup – Trigger | ![Flow Trigger Setup](screenshots/flow_trigger_setup.png) |
+| Flow Activated | ![Flow Activated](screenshots/flow_activated.png) |
+| Email Received | ![Email Received](screenshots/email_received.png) |
+
+---
+
 
 ## 🧱 Salesforce Object & Fields
 
@@ -59,3 +81,16 @@ Customer_Name,Product_Name,Quantity,Amount,Payment_Status,Order_Status,Order_Dat
 Rahul Sharma,Wireless Earbuds,2,4200,Paid,Shipped,2025-01-15
 Sneha Patel,Smartwatch,1,6500,Not Paid,Pending,2025-01-16
 Amit Verma,Laptop Stand,1,1200,Paid,Delivered,2025-01-17
+
+## 🔮 Future Improvements
+- Assign delivery agent automatically using Salesforce Flow.
+- Create Lightning Web Component for customer order tracking.
+- Add approval process for payments.
+- Integrate WhatsApp notifications using Twilio API.
+
+## 🏁 Conclusion
+This Salesforce automation project successfully demonstrates:
+✔ Custom Object + Relationships  
+✔ Dashboard & Reports  
+✔ Flow Automation (Email Trigger)  
+✔ Real-world E-Commerce Use Case  
